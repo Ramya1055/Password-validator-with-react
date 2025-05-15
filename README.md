@@ -1,10 +1,10 @@
 # Password-validator-with-react
 
-Password Validator App
+**Password Validator App**
 This is a React Native application that helps users assess the strength of their passwords. It provides real-time feedback on password strength based on a few key criteria and suggests improvements.
 
-Features
-Password Strength Checker: Automatically evaluates the strength of the password based on:
+**Features**
+Automatically evaluates the strength of the password based on:
 
 Length (should be at least 8 characters).
 
@@ -14,7 +14,7 @@ Mix of uppercase and lowercase letters.
 
 Inclusion of at least one special character.
 
-Suggestions for Improvement: Provides helpful tips for strengthening the password, such as:
+**Suggestions for Improvement:** Provides helpful tips for strengthening the password, such as:
 
 "Password should be at least 8 characters long."
 
@@ -22,7 +22,7 @@ Suggestions for Improvement: Provides helpful tips for strengthening the passwor
 
 "Add at least one special character."
 
-Visual Strength Meter: Displays a color-coded strength bar that adjusts according to the password's strength:
+**Visual Strength Meter:** Displays a color-coded strength bar that adjusts according to the password's strength:
 
 Very Strong: Green
 
@@ -34,25 +34,10 @@ Weak: Orange
 
 Too Weak: Red
 
-Technology Used
-React Native: The framework used to build the app.
+**Technology Used**
+**React Native:** The framework used to build the app.
 
-React: Used for managing app state and rendering UI components.
+**React:** Used for managing app state and rendering UI components.
 
-Styling: Native StyleSheet for the app's visual components.
+**Styling:** Native StyleSheet for the app's visual components.
 
-Setup
-Clone the repository:
-git clone https://github.com/your-username/password-validator-app.git
-
-Navigate to the project folder:
-cd password-validator-app
-
-Install dependencies:
-npm install
-
-Run the app:
-
-For iOS: npx react-native run-ios
-
-For Android: npx react-native run-android
